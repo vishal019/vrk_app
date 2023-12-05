@@ -1,0 +1,10 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    box-sizing: border-box;
+    
+}
+.desktopmenubtn.button{
+    color: white;
+}
