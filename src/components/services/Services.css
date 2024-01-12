@@ -1,0 +1,77 @@
+#card {
+
+
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-evenly;
+    background-color: rgba(59, 58, 58, 0.769);
+
+
+
+
+}
+
+#card {
+
+    margin: 30px;
+    border: 20px;
+    border-color: white;
+
+}
+
+#card {
+
+    margin: 30px;
+    border: 20px;
+    border-color: white;
+
+
+
+}
+
+#reactImg {
+
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    justify-content: center;
+    position: relative;
+}
+
+#reactImg:hover {
+
+    transform: scale(1.2);
+}
+
+figure>* {
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    grid-area: 1/1;
+    transition: .4s;
+
+}
+
+#laravelImg:hover {
+
+    transform: scale(1.2);
+
+}
+
+#laravelImg {
+
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    justify-content: center;
+    position: relative;
+
+}
+
+h1 {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}

@@ -1,0 +1,60 @@
+.heraderPortfolio h1 {
+
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+  color: white;
+}
+.heraderPortfolio h3{
+
+  
+  justify-content: center;
+  display: flex;
+color: white;
+}
+
+#project1{
+
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+
+}
+#card1{
+  position: absolute;
+  margin-left: 19%;
+
+}
+
+.Laravelpro{
+
+  
+  
+  padding: 20px;
+  margin: 10px;
+
+  
+
+
+
+  
+}
+
+#projectcard{
+
+  width: 100%;
+  color: white;
+  background-image: url('../../assets/project2.jpeg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-size: 100%;
+  
+ 
+
+
+}
+
+
+

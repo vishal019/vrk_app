@@ -1,31 +1,34 @@
-import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Contact from './components/Contact';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import Nav from './components/Navbar/Nav';
+import Intro from './components/intro/Intro';
+import Services from './components/services/Services';
+import Portfolio from './components/Portfolio/Portfolio';
+import AboutUs from './components/Aboutus/AboutUs';
+import Typewriter from "typewriter-effect";
+
 function App() {
+
+   
   return (
  
     <div className="App" >
-     
-     <BrowserRouter>
-     <Navbar/>
-     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/services' element={<Services/>} />
-      <Route path='/contact' element={<Contact/>} />
+    
+      <Nav/>
+      <Intro name="Vishal"/>
+      <Services/>
+      <Portfolio/>
+      <AboutUs/>
+      <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("GeeksForGeeks")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Welcomes You")
+                        .start();
+                }}
+            />
 
-      </Routes>
-      <Footer/>
-     
-     </BrowserRouter>
-      
-
-
-      
 
     </div>
 
