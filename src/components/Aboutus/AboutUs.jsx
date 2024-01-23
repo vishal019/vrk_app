@@ -7,7 +7,7 @@ export default class AboutUs extends Component {
   render() {
     return (
       <div>
-        <div className="headerAboutus">
+        <div className="headerAboutus" id='aboutus'>
           
 
          <section id='skill'>

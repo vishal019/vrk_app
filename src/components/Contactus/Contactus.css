@@ -37,7 +37,7 @@ textarea{
       
 }
 
-input{
+input[type=text]{
 
        /* position: relative; */
        justify-content: space-between;
@@ -50,6 +50,7 @@ input{
        border-radius: 4px;
        width: 500px;
        height: 40px;
+       color: white;
        
       
      
