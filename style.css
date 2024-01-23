@@ -1,0 +1,11 @@
+body{
+    
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+    overflow-y: scroll;
+    background-color:rgba(0, 0, 0, 0.829) ;
+    
+}
