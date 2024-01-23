@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vrk_portfolio/static/css/main.6973ea63.css",
-    "main.js": "/vrk_portfolio/static/js/main.a360e3f7.js",
-    "static/media/react.gif": "/vrk_portfolio/static/media/react.39b66caaf38451884148.gif",
-    "static/media/profile.png": "/vrk_portfolio/static/media/profile.85b32fd2362d6b7f0352.png",
-    "static/media/menu.png": "/vrk_portfolio/static/media/menu.fe22ac2c781b450d8b74.png",
-    "static/media/logo.jpg": "/vrk_portfolio/static/media/logo.5890dad421b9db91cca4.jpg",
-    "index.html": "/vrk_portfolio/index.html",
-    "main.6973ea63.css.map": "/vrk_portfolio/static/css/main.6973ea63.css.map",
-    "main.a360e3f7.js.map": "/vrk_portfolio/static/js/main.a360e3f7.js.map"
+    "main.css": "/vrk_app/static/css/main.6973ea63.css",
+    "main.js": "/vrk_app/static/js/main.0dbf18f7.js",
+    "static/media/react.gif": "/vrk_app/static/media/react.39b66caaf38451884148.gif",
+    "static/media/profile.png": "/vrk_app/static/media/profile.85b32fd2362d6b7f0352.png",
+    "static/media/menu.png": "/vrk_app/static/media/menu.fe22ac2c781b450d8b74.png",
+    "static/media/logo.jpg": "/vrk_app/static/media/logo.5890dad421b9db91cca4.jpg",
+    "index.html": "/vrk_app/index.html",
+    "main.6973ea63.css.map": "/vrk_app/static/css/main.6973ea63.css.map",
+    "main.0dbf18f7.js.map": "/vrk_app/static/js/main.0dbf18f7.js.map"
   },
   "entrypoints": [
     "static/css/main.6973ea63.css",
-    "static/js/main.a360e3f7.js"
+    "static/js/main.0dbf18f7.js"
   ]
 }
