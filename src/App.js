@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import AboutUs from './components/Aboutus/AboutUs';
 import Contactus from './components/Contactus/Contactus';
 import F from './components/footer';
+import ContactMe from './components/contact/ContactMe';
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
       <Portfolio/>
       <AboutUs/>
       <Contactus/>
-      <F/>
+      {/* <ContactMe/> */}
+      {/* <F/> */}
   
 
       

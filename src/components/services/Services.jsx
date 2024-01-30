@@ -13,14 +13,33 @@ export default class Services extends Component {
      
 
        
-        <div className="card1" id='card'>
+        {/* <div className="card1" id='card'>
           <figure>
           <img src={laravelImg} alt="" id='laravelImg' />
           </figure>
           <figure>
           <img src={reactGif} alt="" id='reactImg' />
           </figure>
-        </div>
+        </div> */}
+
+
+
+      <center>  <div class="row">
+  <div class="col-sm-6">
+    <div className='card'>
+    <figure>
+    <img src={reactGif} alt="" id='reactImg' />
+    </figure>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div className='card'>
+    <figure>
+    <img src={laravelImg} alt="" id='laravelImg' />
+    </figure>
+    </div>
+  </div>
+</div></center>
          
       </div>
     )

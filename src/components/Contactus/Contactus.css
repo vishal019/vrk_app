@@ -1,76 +1,65 @@
-div.container{
+.contactpage{
+
+       min-height: calc(100vh - 4rem);
+       width: 100vw;
+       max-width: 60rem;
+       margin: 0 auto;
+       text-align: center;
        display: flex;
-       justify-content: center;  
-       margin-right: 100%;  
-}
-
-textarea{
-
-       background-color: rgba(255, 255, 255, 0.116);
-       width: 500px;
-      
-       border-radius: 4px;
-       text-decoration: none;
-       /* box-shadow: none; */
-}
-.btn-outline-secondary{
-
-       
-       background: white;
-       color: rgb(5, 5, 5);
-       border: none;
-       margin-right: 0%;
-       margin-left: 50%;
-       margin-top: 3px;
-       margin-bottom: 30px;
-    
-      
-      
-    
-      
+       flex-direction: column;
+       align-items: center;
+       justify-content: center
 
 
 }
-#form{
-       color:white;
 
-      
+.contactpagetitle{
+
+       font-size: 3rem;
+       margin-bottom: 1rem;
 }
 
-input[type=text]{
 
-       /* position: relative; */
-       justify-content: space-between;
 
-       margin-bottom: 9px;
-       
 
-       background-color: rgba(255, 255, 255, 0.116);
-       
-       border-radius: 4px;
-       width: 500px;
-       height: 40px;
+.contactdescription{
+
+       padding: 1rem;
+       font-size: medium;
+       font-weight: 300;
        color: white;
-       
-      
-     
+
 }
 
-::placeholder{
-
-       color: white;
-       
-       
-}
-#dis{
-
-       display: flex;
+.contactform{
+       margin: 1rem;
+       display:flexbox;
+       align-items: center;
        justify-content: center;
-       color: white;
+       /* width: 90vw;
+       max-width: 60vw; */
 
 }
 
 
+.name, .email, .msg{
+       font-size: medium;
+       width: 100%;
+       max-width: 40rem;
+       margin: 0.5rem;
+       padding: 0.5rem 1rem;
+       color: white;
+       border: none;
+       border-radius: 0.5rem;
+       background: rgba(50,50,50,50);
+}
+
+.submitbtn{
+       background: white;
+       border: none;
+       border-radius:2rem;
+       padding: 0.75rem 3.5rem;
+       margin: 2rem;
 
 
-
+}

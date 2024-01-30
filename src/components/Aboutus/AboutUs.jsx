@@ -22,7 +22,7 @@ export default class AboutUs extends Component {
               <h2>
                 React Native and React Development
               </h2>
-              <p>this is the demo text</p>
+              {/* <p>this is the demo text</p> */}
             </div>
           </div>
 
@@ -34,7 +34,7 @@ export default class AboutUs extends Component {
               <h2>
                 Laravel Development
               </h2>
-              <p>this is the demo text</p>
+              {/* <p>this is the demo text</p> */}
             </div>
           </div>
 

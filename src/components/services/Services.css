@@ -78,3 +78,13 @@ h1 {
     display: flex;
     color: white;
 }
+
+.card{
+
+    display: flex;
+    background: transparent;
+    border: 0;
+    margin:20px;
+
+
+}
