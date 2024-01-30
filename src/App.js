@@ -22,12 +22,12 @@ function App() {
     
       <Nav/>
       <Intro name="Vishal"/>
-      {/* <Services/> */}
+      <Services/>
       <Portfolio/>
       <AboutUs/>
       <Contactus/>
       {/* <ContactMe/> */}
-      {/* <F/> */}
+      <F/>
   
 
       
