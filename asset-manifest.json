@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vrk_app/static/css/main.a3b704de.css",
-    "main.js": "/vrk_app/static/js/main.3085032a.js",
+    "main.js": "/vrk_app/static/js/main.6b84e9d2.js",
     "static/media/react.gif": "/vrk_app/static/media/react.39b66caaf38451884148.gif",
     "static/media/profile.png": "/vrk_app/static/media/profile.85b32fd2362d6b7f0352.png",
     "static/media/menu.png": "/vrk_app/static/media/menu.fe22ac2c781b450d8b74.png",
     "static/media/logo.jpg": "/vrk_app/static/media/logo.5890dad421b9db91cca4.jpg",
     "index.html": "/vrk_app/index.html",
     "main.a3b704de.css.map": "/vrk_app/static/css/main.a3b704de.css.map",
-    "main.3085032a.js.map": "/vrk_app/static/js/main.3085032a.js.map"
+    "main.6b84e9d2.js.map": "/vrk_app/static/js/main.6b84e9d2.js.map"
   },
   "entrypoints": [
     "static/css/main.a3b704de.css",
-    "static/js/main.3085032a.js"
+    "static/js/main.6b84e9d2.js"
   ]
 }
