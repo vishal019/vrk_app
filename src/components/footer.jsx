@@ -22,7 +22,7 @@ export default class footer extends Component {
         <i className="fab fa-facebook-f" />
       </a>
       {/* Twitter */}
-      <a
+      {/* <a
         data-mdb-ripple-init=""
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#55acee" }}
@@ -30,9 +30,9 @@ export default class footer extends Component {
         role="button"
       >
         <i className="fab fa-twitter" />
-      </a>
+      </a> */}
       {/* Google */}
-      <a
+      {/* <a
         data-mdb-ripple-init=""
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#dd4b39" }}
@@ -40,13 +40,13 @@ export default class footer extends Component {
         role="button"
       >
         <i className="fab fa-google" />
-      </a>
+      </a> */}
       {/* Instagram */}
       <a
         data-mdb-ripple-init=""
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#ac2bac" }}
-        href="#!"
+        href="https://www.instagram.com/iam.vrk_/"
         role="button"
       >
         <i className="fab fa-instagram" />
@@ -56,7 +56,7 @@ export default class footer extends Component {
         data-mdb-ripple-init=""
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#0082ca" }}
-        href="#!"
+        href="https://www.linkedin.com/in/vishal-kamble-0951511a3/"
         role="button"
       >
         <i className="fab fa-linkedin-in" />
@@ -66,7 +66,7 @@ export default class footer extends Component {
         data-mdb-ripple-init=""
         className="btn text-white btn-floating m-1"
         style={{ backgroundColor: "#333333" }}
-        href="#!"
+        href="https://github.com/vishal019"
         role="button"
       >
         <i className="fab fa-github" />
