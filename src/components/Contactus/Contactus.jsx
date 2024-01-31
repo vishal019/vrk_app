@@ -1,9 +1,13 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../Contactus/Contactus.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contactus() {
   const form = useRef();
+
+  const notify = () => toast("Thanks for contacting us! We will be in touch with you shortly.");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,33 +19,9 @@ export default function Contactus() {
           console.log(error.text);
       });
   };
+
   return (
-    <div>
-      {/* <div id='contactusdiv'>
-        <div>
-          <h1 id='contactus'>Contact Me</h1>  
-       <center> <p id='dis'> Please fillout the form below to discuss any work opportunities</p></center> 
-     <div className='contactform'>
-     <form ref={form} onSubmit={sendEmail} id='form' className='text-center' style={{ width: '100%', maxWidth: '300px' }}>
-       
-        
-      <input type="text" placeholder='Your name' name="user_name" />
-      <input type="text" placeholder='Your email' name="user_email" />
-      <textarea   placeholder='Your message' cols="30" rows="10" name="message"></textarea>
-
-      <button type="submit" value="Send" class="btn btn-outline-secondary">Send</button>
-
-      
-    </form>
-    </div>
-    
-    </div>
-    
-    
-      </div> */}
-
-
-
+    <div>    
 
       <section className='contactpage' id='contactus'>
 
@@ -50,16 +30,17 @@ export default function Contactus() {
         <h1 className='contactpagetitle'>Contact Us</h1>
         <span className="contactdescription">Please fillout the form below to discuss any work opportunities</span>
         <form className='contactform' ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="name" placeholder='Enter the name' />
-          <input type="email" name="user_email" className="email" placeholder='Enter the email' />
-          <textarea className='msg' name="message" id="" cols="30" rows="10" placeholder='Enter the message'></textarea>
+          <input type="text" name="user_name" className="name" placeholder='Enter the name' required />
+          <input type="email" name="user_email" className="email" placeholder='Enter the email' required />
+          <textarea className='msg' name="message" id="" cols="30" rows="10" placeholder='Enter the message' required></textarea>
           <br />
-          <button value='Send' className='submitbtn' type="submit">Send</button>
+          <button value='Send' data-dismiss="alert" className='submitbtn' type="submit" onClick={notify}>Send</button>
           <div className="links">
 
           </div>
         </form>
       </div>
+      <ToastContainer />
         
       </section>
     </div>
