@@ -49,12 +49,12 @@ export default function Contactus() {
 
         <h1 className='contactpagetitle'>Contact Us</h1>
         <span className="contactdescription">Please fillout the form below to discuss any work opportunities</span>
-        <form className='contactform'>
-          <input type="text" className="name" placeholder='Enter the name' />
-          <input type="email" className="email" placeholder='Enter the email' />
+        <form className='contactform' ref={form} onSubmit={sendEmail}>
+          <input type="text" name="user_name" className="name" placeholder='Enter the name' />
+          <input type="email" name="user_email" className="email" placeholder='Enter the email' />
           <textarea className='msg' name="message" id="" cols="30" rows="10" placeholder='Enter the message'></textarea>
           <br />
-          <button value='send' className='submitbtn' type="submit">Send</button>
+          <button value='Send' className='submitbtn' type="submit">Send</button>
           <div className="links">
 
           </div>
