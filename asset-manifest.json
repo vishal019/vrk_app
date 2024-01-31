@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vrk_app/static/css/main.cdcf9966.css",
-    "main.js": "/vrk_app/static/js/main.90261966.js",
+    "main.css": "/vrk_app/static/css/main.a1fa4767.css",
+    "main.js": "/vrk_app/static/js/main.8e1fe759.js",
     "static/media/react.gif": "/vrk_app/static/media/react.39b66caaf38451884148.gif",
     "static/media/profile.png": "/vrk_app/static/media/profile.85b32fd2362d6b7f0352.png",
     "static/media/menu.png": "/vrk_app/static/media/menu.fe22ac2c781b450d8b74.png",
     "static/media/logo.jpg": "/vrk_app/static/media/logo.5890dad421b9db91cca4.jpg",
     "index.html": "/vrk_app/index.html",
-    "main.cdcf9966.css.map": "/vrk_app/static/css/main.cdcf9966.css.map",
-    "main.90261966.js.map": "/vrk_app/static/js/main.90261966.js.map"
+    "main.a1fa4767.css.map": "/vrk_app/static/css/main.a1fa4767.css.map",
+    "main.8e1fe759.js.map": "/vrk_app/static/js/main.8e1fe759.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdcf9966.css",
-    "static/js/main.90261966.js"
+    "static/css/main.a1fa4767.css",
+    "static/js/main.8e1fe759.js"
   ]
 }
