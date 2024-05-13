@@ -13,11 +13,12 @@ const Intro = (props) => {
 
     <div className="inroContent">
         <span className="hello">Hello,</span>
-        <span className="introtext">I'm <span className="introName">{props.name}</span> <br /> Web Developer</span>
-        <p className='intropara'>I am a skilled and passionate web developer with experience in creating user friendly websites. </p>
+        <span className="introtext">We Provide Exclusive
+ <br /> Web & App Development Services</span>
+        <p className='intropara'>We are skilled and passionate web developer with experience in creating user friendly websites & Mobile Applications. </p>
     <Link> <button className='btn'><span class="material-symbols-outlined">
 cases
-</span> Hire Me</button></Link>    </div>
+</span>Learn More</button></Link>    </div>
   
   <figure>  <img src={profile} alt=""  className='bg'/></figure>
     </section>

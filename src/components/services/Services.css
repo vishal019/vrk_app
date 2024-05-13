@@ -78,6 +78,9 @@ h1 {
     display: flex;
     color: white;
 }
+#card_content{
+    color: white;
+}
 
 .card{
 

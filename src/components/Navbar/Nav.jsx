@@ -4,6 +4,7 @@ import '../Navbar/Nav.css';
 import { useState } from 'react';
 import { Link } from "react-scroll";
 import m from "../../assets/menu.png"
+import digital_dairies from '../../assets/digital_diaries.png';
 
 
 export default function Nav() {
@@ -12,7 +13,7 @@ export default function Nav() {
     <div>
       <nav className='navbar'>
     
-    <img src={logo} alt="" id='logo' />
+    <img src={digital_dairies} alt="" id='logo' />
 
 <span className='desktopmenu'>
   <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-100} duration={500} className='desktopmenuListitem'>Home</Link>
