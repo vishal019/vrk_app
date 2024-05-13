@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/vrk_app/static/css/main.a3b704de.css",
-    "main.js": "/vrk_app/static/js/main.6b84e9d2.js",
+    "main.css": "/vrk_app/static/css/main.49ee548d.css",
+    "main.js": "/vrk_app/static/js/main.6cb8af31.js",
+    "static/media/web_dev.gif": "/vrk_app/static/media/web_dev.d928f6f0ea135b0931f1.gif",
     "static/media/react.gif": "/vrk_app/static/media/react.39b66caaf38451884148.gif",
+    "static/media/laravel_gig.png": "/vrk_app/static/media/laravel_gig.490210f02612d07e5f4e.png",
+    "static/media/Mobile_app_development.gif": "/vrk_app/static/media/Mobile_app_development.8690f865036711a1a7de.gif",
     "static/media/profile.png": "/vrk_app/static/media/profile.85b32fd2362d6b7f0352.png",
     "static/media/menu.png": "/vrk_app/static/media/menu.fe22ac2c781b450d8b74.png",
     "static/media/logo.jpg": "/vrk_app/static/media/logo.5890dad421b9db91cca4.jpg",
+    "static/media/digital_diaries.png": "/vrk_app/static/media/digital_diaries.8b487d941bb2433a47d1.png",
     "index.html": "/vrk_app/index.html",
-    "main.a3b704de.css.map": "/vrk_app/static/css/main.a3b704de.css.map",
-    "main.6b84e9d2.js.map": "/vrk_app/static/js/main.6b84e9d2.js.map"
+    "main.49ee548d.css.map": "/vrk_app/static/css/main.49ee548d.css.map",
+    "main.6cb8af31.js.map": "/vrk_app/static/js/main.6cb8af31.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b704de.css",
-    "static/js/main.6b84e9d2.js"
+    "static/css/main.49ee548d.css",
+    "static/js/main.6cb8af31.js"
   ]
 }
